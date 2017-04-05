@@ -1,0 +1,209 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #1E252C;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+h3 {
+  color: #85718A;
+  font-family: 'Dina ttf 10px', Fira Code;
+  line-height: 10px;
+  font-weight: Normal;
+  font-size: 16.3;
+  padding: 0px;
+  margin: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+input {
+  width: 100%;
+  border: none;
+  color: transparent;
+  background-color: #1E252C;
+  font-family: 'Fira Code';
+  font-size: 36px;
+  line-height: 40px;
+  outline: none;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  position: absolute;
+  padding-left: 5px;
+  transition: .4s;
+  text-shadow: 0 0 0 #1E252C;
+}
+
+.ddg {
+  top: 0px;
+}
+
+.ddg:focus, .ddg:hover {
+  background-color: #C79E94;
+}
+
+.yt {
+  top: 40px;
+}
+
+.yt:focus, .yt:hover {
+  background-color: #85718A;
+}
+
+.fb {
+  top: 80px;
+}
+
+.fb:focus, .fb:hover {
+  background-color: #DB916C;
+}
+
+.rd {
+  top: 120px;
+}
+
+.rd:focus, .rd:hover {
+  background-color: #B68676;
+}
+
+.wf {
+  top: 160px;
+}
+
+.wf:focus, .wf:hover {
+  background-color: #D75C4D;
+}
+
+.aur {
+  top: 200px;
+}
+
+.aur:focus, .aur:hover {
+  background-color: #A15253;
+}
+
+.slap {
+  top: 240px;
+}
+
+.slap:focus, .slap:hover {
+  background-color: #CE3B44;
+}
+
+.search {
+  z-index: 2;
+  position: absolute;
+  width: 33%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -20px);
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #1E252C;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #1E252C;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #1E252C;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #1E252C;
+}
+
+list {
+  text-align: left;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.all {
+  display: inline-block;
+  vertical-align: top;
+  align-self: left;
+  padding: 0px;
+  margin: 0px;
+  width: 16.03%;
+}
+
+.all:nth-child(1) {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  text-align: left;
+  width: 100%;
+  padding-left: 1em;
+  padding-top: 0em;
+  margin: 0 0 0 0;
+  padding-right: 1em;
+  height: 3px;
+}
+
+.left {
+  background-color: #CE3B44;
+}
+
+.general {
+  background-color: #A15253;
+}
+
+.reddit {
+  background-color: #D75C4D;
+}
+
+.social {
+  background-color: #B68676;
+}
+
+.arts {
+  background-color: #DB916C;
+}
+
+.right {
+  background-color: #85718A;
+}
+
+.links {
+  text-align: center;
+  color: #1E252C;
+  font-family: 'Dina ttf 10px', Fira Code;
+  font-size: 16;
+  text-decoration: none;
+  background-color: #1E252C;
+  margin-top: 0px;
+  padding-left: 0em;
+  padding-top: 420px;
+  padding-bottom: 0px;
+  padding-right: 1em;
+  margin-right: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+

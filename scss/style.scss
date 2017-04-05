@@ -1,0 +1,213 @@
+// Import Colors
+@import '/home/zzzeyez/.cache/wal/colors.scss';
+
+html {
+  min-height: 100%;
+  min-width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: $color0;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+
+}
+
+h3 {
+  color: $color6;
+  font-family: 'Dina ttf 10px', Fira Code;
+  line-height: 10px;
+  font-weight: Normal;
+  font-size: 16.3;
+  padding: 0px;
+  margin: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+input {
+	width: 100%;
+	border: none;
+	color: transparent;
+	background-color: $color0;
+	font-family: 'Fira Code';
+	font-size: 36px;
+	line-height: 40px;
+	outline: none;
+	font-smooth: never;
+	-webkit-font-smoothing: none;
+	position: absolute;
+	padding-left: 5px;
+	transition: .4s;
+	text-shadow: 0 0 0 $color0;
+}
+
+.ddg {
+	top: 0px;
+
+	&:focus,&:hover {
+		background-color: $color7;
+	}
+
+}
+
+.yt {
+	top: 40px;
+
+	&:focus,&:hover { 
+		background-color: $color6;
+  	}
+
+}
+
+.fb {
+	top: 80px;
+
+	&:focus,&:hover { 
+		background-color: $color5;
+  	}
+
+}
+
+.rd {
+	top: 120px;
+
+	&:focus,&:hover { 
+		background-color: $color4;
+  	}
+
+}
+
+.wf {
+	top: 160px;
+
+	&:focus,&:hover { 
+		background-color: $color3;
+  	}
+
+}
+
+.aur {
+	top: 200px;
+
+	&:focus,&:hover { 
+		background-color: $color2;
+  	}
+
+}
+
+.slap {
+	top: 240px;
+
+	&:focus,&:hover { 
+		background-color: $color1;
+  	}
+
+}
+
+.search {
+	z-index: 2;
+	position: absolute;
+	width: 33%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-20px);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $color0;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $color0;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $color0;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $color0;
+}
+
+list {
+  text-align: left;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.all {
+  display: inline-block;
+  vertical-align: top;
+  align-self: left;
+  padding: 0px;
+  margin: 0px;
+  width: 16.03%
+}
+
+.all:nth-child(1) {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  text-align: left;
+  width: 100%;
+  padding-left: 1em;
+  padding-top: 0em;
+  margin: 0 0 0 0;
+  padding-right: 1em;
+  height: 3px;
+}
+
+.left {
+  background-color: $color1;
+}
+
+.general {
+  background-color: $color2;
+}
+
+.reddit {
+  background-color: $color3;
+}
+
+.social {
+  background-color: $color4;
+}
+
+.arts {
+  background-color: $color5;
+}
+
+.right {
+  background-color: $color6;
+}
+
+.links {
+  text-align: center;
+  color: $color0;
+  font-family: 'Dina ttf 10px', Fira Code;
+  font-size: 16;
+  text-decoration: none;
+  background-color: $color0;
+  margin-top: 0px;
+  padding-left: 0em;
+  padding-top: 420px;
+  padding-bottom: 0px;
+  padding-right: 1em;
+  margin-right: 0px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+
+}

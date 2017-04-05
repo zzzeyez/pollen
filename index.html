@@ -1,0 +1,99 @@
+<html>
+
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<title>zzzeyez</title>
+</head>
+
+<body>
+
+	<div class="all">
+		<div class="title left">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+	<div class="all">
+		<div class="title general">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+	<div class="all">
+		<div class="title reddit">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+	<div class="all">
+		<div class="title social">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+	<div class="all">
+		<div class="title arts">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+	<div class="all">
+		<div class="title right">
+			<h3>&nbsp;</h3>
+		</div>
+	</div>
+
+	<div class="search">
+
+		<form class="js-form">
+			<input type="text" class="ddg" name="q" maxlength="180" placeholder="hello" autocomplete="off" autofocus>
+		</form>
+
+		<form id="vb_yt_search-form" method="get" action="http://youtube.com/results">
+			<input id="vb_yt_search-form" type="text" class="yt" name="search_query" maxlength="180" placeholder="youtube" autocomplete="off">
+		</form>
+
+		<form method="get" action="http://facebook.com/">
+			<input type="text" class="fb" name="q" maxlength="180" placeholder="facebook" autocomplete="off">
+		</form>
+
+		<form action="http://reddit.com/">
+			<input type="text" class="rd" maxlength="180" placeholder="reddit" autocomplete="off">
+		</form>
+		
+		<form method="get" action="http://waffles.ch/">
+			<input type="text" class="wf" name="q" maxlength="180" placeholder="waffles" autocomplete="off">
+		</form>
+
+		<form method="get" action="https://aur.archlinux.org/">
+			<input type="text" class="aur" name="q" maxlength="180" placeholder="arch linux" autocomplete="off">
+		</form>
+
+		<form method="get" action="http://www.slapmagazine.com/component/option,com_jfusion/Itemid,4/">
+			<input type="text" class="slap" placeholder="slap" autocomplete="off">
+		</form>
+
+	</div>
+
+</body>
+
+<script>
+
+	const protocolPrefixUrl = str => str.substr(0, 7) === 'http://' || str.substr(0, 8) === 'https://' ? str : `http://${str}`
+
+	const isValidUrl = str => str.includes('.')
+
+	const searchPrefix = 'https://duckduckgo.com/?q='
+
+	const formEl = document.querySelector('.js-form')
+	const inputEl = formEl.elements[0]
+
+	formEl.addEventListener('submit', evt => {
+	evt.preventDefault()
+ 	
+	const searchTerm = inputEl.value
+	const isUrl = isValidUrl(searchTerm)
+
+	window.location.href = isUrl ? protocolPrefixUrl(searchTerm) : searchPrefix + searchTerm
+
+	formEl.reset()
+	})
+
+</script>
+
+</html>
