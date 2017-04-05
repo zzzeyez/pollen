@@ -2,5 +2,5 @@
 My custom homepage for my browser.
 
 Screenshot:
-![Screenshot](homepage-screenshot.png)
+![Screenshot](screenshot.png)
 # home
