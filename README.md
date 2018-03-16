@@ -1,7 +1,5 @@
-# Homepage
-My custom homepage for my browser.
+# Start Page
 
 Screenshot:
-![Screenshot](startpage.webm)
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.gif)
 
