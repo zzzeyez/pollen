@@ -1,7 +1,7 @@
 :root {
-  --bgcolor: #f7f7f7;
-  --fgcolor: #f7f7f7;
-  --formfg: #1D2E38;
+  --bgcolor: #141414;
+  --fgcolor: #141414;
+  --formfg: #e2e2e2;
   --opacityselected: 1;
   --opacity: 0;
   --font: SF Mono, sans-serif;
@@ -38,7 +38,7 @@ body {
 }
 
 h3 {
-  color: #766699;
+  color: #BDC9AF;
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -78,7 +78,7 @@ input {
 
 .form1 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #1D2E38;
+  border-left: var(--bordersize) solid #e2e2e2;
   background-color: var(--formfg);
   opacity: var(--opacity);
 }
@@ -89,8 +89,8 @@ input {
 
 .form2 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #766699;
-  background-color: #766699;
+  border-left: var(--bordersize) solid #BDC9AF;
+  background-color: #BDC9AF;
   opacity: var(--opacity);
 }
 
@@ -100,8 +100,8 @@ input {
 
 .form3 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #996668;
-  background-color: #996668;
+  border-left: var(--bordersize) solid #46B0C5;
+  background-color: #46B0C5;
   opacity: var(--opacity);
 }
 
@@ -111,8 +111,8 @@ input {
 
 .form4 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #669994;
-  background-color: #669994;
+  border-left: var(--bordersize) solid #C95AB6;
+  background-color: #C95AB6;
   opacity: var(--opacity);
 }
 
@@ -122,8 +122,8 @@ input {
 
 .form5 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #996682;
-  background-color: #996682;
+  border-left: var(--bordersize) solid #3539B1;
+  background-color: #3539B1;
   opacity: var(--opacity);
 }
 
@@ -133,8 +133,8 @@ input {
 
 .form6 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #667699;
-  background-color: #667699;
+  border-left: var(--bordersize) solid #D6D15A;
+  background-color: #D6D15A;
   opacity: var(--opacity);
 }
 
@@ -144,8 +144,8 @@ input {
 
 .form7 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #997366;
-  background-color: #997366;
+  border-left: var(--bordersize) solid #D6AB63;
+  background-color: #D6AB63;
   opacity: var(--opacity);
 }
 
@@ -205,27 +205,27 @@ list {
 }
 
 .left {
-  background-color: #997366;
+  background-color: #D6AB63;
 }
 
 .general {
-  background-color: #667699;
+  background-color: #D6D15A;
 }
 
 .reddit {
-  background-color: #996682;
+  background-color: #3539B1;
 }
 
 .social {
-  background-color: #669994;
+  background-color: #C95AB6;
 }
 
 .arts {
-  background-color: #996668;
+  background-color: #46B0C5;
 }
 
 .right {
-  background-color: #766699;
+  background-color: #BDC9AF;
 }
 
 .links {
