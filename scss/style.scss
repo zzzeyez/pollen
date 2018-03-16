@@ -1,5 +1,23 @@
 // Import Colors
-@import '/home/zzzeyez/.cache/wal/colors.scss';
+@import '/Users/zzzeyez/.cache/wal/colors.scss';
+
+:root{
+	--bgcolor: $color0;
+	--fgcolor: $color0;
+	--formfg: $color7;
+	--opacityselected: 1;
+	--opacity: 0;
+	--font: SF Mono, sans-serif;
+	--fontsize: 56px;
+	--height: 14.29%;
+	/* this one is multiplied by --height to get distance from center) */
+	--positionvertical: 0;
+	--width: 100%;
+	--textalign: left;
+	--textalignvertical: center;
+	--bordersize: 0px;
+	--bordertop: 3px;
+}
 
 html {
   min-height: 100%;
@@ -15,128 +33,136 @@ html {
 }
 
 body {
-  background-color: $color0;
+  background-color: var(--bgcolor);
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
-
 }
 
 h3 {
   color: $color6;
-  font-family: 'Dina ttf 10px', Fira Code;
+  font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
   font-size: 16.3;
   padding: 0px;
   margin: 0px;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
+}
+
+.search {
+	/* z-index: 2; */
+	position: absolute;
+	width: var(--width);
+	left: 50%;
+	height: calc( 100% - var(--bordertop) );
+	top: var(--bordertop);
+	transform: translate(-50%,var(--positionvertical));
 }
 
 input {
 	width: 100%;
 	border: none;
-	color: transparent;
-	background-color: $color0;
-	font-family: 'Fira Code';
-	font-size: 36px;
-	line-height: 40px;
+	color: var(--bgcolor);
+	height: var(--height);
+	background-color: var(--bgcolor);
+	font-family: var(--font);
+	font-size: var(--fontsize);
+	line-height: 100%;
+	text-align: var(--textalign);
+	vertical-align: var(--textalignvertical);
 	outline: none;
-	font-smooth: never;
-	-webkit-font-smoothing: none;
 	position: absolute;
-	padding-left: 5px;
-	transition: .4s;
-	text-shadow: 0 0 0 $color0;
+	display: inline;
+	padding-left: 1ch;
+	transition: 0s;
+	text-shadow: 0 0 0 var(--bgcolor);
 }
 
-.ddg {
-	top: 0px;
-
+.form1 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color7;
+	background-color: var(--formfg);
+	opacity: var(--opacity);
 	&:focus,&:hover {
-		background-color: $color7;
+	opacity: var(--opacityselected);
 	}
 
 }
 
-.yt {
-	top: 40px;
-
+.form2 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color6;
+	background-color: $color6;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color6;
+	opacity: var(--opacityselected);
   	}
 
 }
 
-.fb {
-	top: 80px;
-
+.form3 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color5;
+	background-color: $color5;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color5;
+	opacity: var(--opacityselected);
   	}
-
 }
 
-.rd {
-	top: 120px;
-
+.form4 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color4;
+	background-color: $color4;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color4;
-  	}
-
+	opacity: var(--opacityselected);
+	}
 }
 
-.wf {
-	top: 160px;
-
+.form5 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color3;
+	background-color: $color3;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color3;
+	opacity: var(--opacityselected);
   	}
-
 }
 
-.aur {
-	top: 200px;
-
+.form6 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color2;
+	background-color: $color2;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color2;
+	opacity: var(--opacityselected);
   	}
-
 }
 
-.slap {
-	top: 240px;
-
+.form7 {
+	top: calc(var(--height) * var(--positionvertical));
+	border-left: var(--bordersize) solid $color1;
+	background-color: $color1;
+	opacity: var(--opacity);
 	&:focus,&:hover { 
-		background-color: $color1;
-  	}
+	opacity: var(--opacityselected);
+	}
 
-}
-
-.search {
-	z-index: 2;
-	position: absolute;
-	width: 33%;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-20px);
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: $color0;
+  color: var(--fgcolor);
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: $color0;
+  color: var(--fgcolor);
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: $color0;
+  color: var(--fgcolor);
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: $color0;
+  color: var(--fgcolor);
 }
 
 list {
@@ -152,7 +178,7 @@ list {
   align-self: left;
   padding: 0px;
   margin: 0px;
-  width: 16.03%
+  width: 16.06%
 }
 
 .all:nth-child(1) {
@@ -167,7 +193,7 @@ list {
   padding-top: 0em;
   margin: 0 0 0 0;
   padding-right: 1em;
-  height: 3px;
+  height: var(--bordertop);
 }
 
 .left {
@@ -196,18 +222,16 @@ list {
 
 .links {
   text-align: center;
-  color: $color0;
-  font-family: 'Dina ttf 10px', Fira Code;
-  font-size: 16;
+  color: var(--fgcolor);
+  font-family: var(--font);
+  font-size: var(--fontsize);
   text-decoration: none;
-  background-color: $color0;
+  background-color: var(--bgcolor);
   margin-top: 0px;
   padding-left: 0em;
   padding-top: 420px;
   padding-bottom: 0px;
   padding-right: 1em;
   margin-right: 0px;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
 
 }
