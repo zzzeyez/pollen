@@ -4,7 +4,7 @@ Pollen is a start page that you can navigate with your keyboard.
 
 ![Screenshot](screenshot.gif)
 
-You can navigate through the links with the Tab button.  The defalt form, "search", accepts URLs and search terms.  The YouTube and Wikipedia forms also accepts search terms.  The other forms are just static links that you can type Enter to visit.
+You can navigate through the links with the Tab button.  The default form, "search", accepts URLs and search terms.  The YouTube and Wikipedia forms also accepts search terms.  The other forms are just static links that you can type Enter to visit.
 
 By default the links are as follows:  Duck Duck Go, YouTube, Wikipedia, Amazon, Reddit, Facebook and Netflix. 
 
