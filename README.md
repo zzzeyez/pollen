@@ -1,6 +1,6 @@
 # Pollen
 
-Pollen is a start page I wrote to make web browsing an easier, keyboard-based experience for myself.
+Pollen is a start page that you can navigate with your keyboard.
 
 ![Screenshot](screenshot.gif)
 
