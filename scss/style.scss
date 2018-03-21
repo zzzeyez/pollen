@@ -2,12 +2,12 @@
 @import '/Users/zzzeyez/.cache/wal/colors.scss';
 
 :root{
-	--bgcolor: $color0;
-	--fgcolor: $color0;
-	--formfg: $color7;
+	--bgcolor: #{$color0};
+	--fgcolor: #{$color0};
+	--formfg: #{$color7};
 	--opacityselected: 1;
 	--opacity: 0;
-	--font: SF Mono, sans-serif;
+	--font: SF Mono, Lucida Grande;
 	--fontsize: 56px;
 	--height: 14.29%;
 	/* this one is multiplied by --height to get distance from center) */
@@ -41,7 +41,7 @@ body {
 }
 
 h3 {
-  color: $color6;
+  color: #{$color6};
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -93,7 +93,7 @@ input {
 .form2 {
 	top: calc(var(--height) * var(--positionvertical));
 	border-left: var(--bordersize) solid $color6;
-	background-color: $color6;
+	background-color: #{$color6};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -103,8 +103,8 @@ input {
 
 .form3 {
 	top: calc(var(--height) * var(--positionvertical));
-	border-left: var(--bordersize) solid $color5;
-	background-color: $color5;
+	border-left: var(--bordersize) solid #{$color5};
+	background-color: #{$color5};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -113,8 +113,8 @@ input {
 
 .form4 {
 	top: calc(var(--height) * var(--positionvertical));
-	border-left: var(--bordersize) solid $color4;
-	background-color: $color4;
+	border-left: var(--bordersize) solid #{$color4};
+	background-color: #{$color4};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -123,8 +123,8 @@ input {
 
 .form5 {
 	top: calc(var(--height) * var(--positionvertical));
-	border-left: var(--bordersize) solid $color3;
-	background-color: $color3;
+	border-left: var(--bordersize) solid #{$color3};
+	background-color: #{$color3};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -133,8 +133,8 @@ input {
 
 .form6 {
 	top: calc(var(--height) * var(--positionvertical));
-	border-left: var(--bordersize) solid $color2;
-	background-color: $color2;
+	border-left: var(--bordersize) solid #{$color2};
+	background-color: #{$color2};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -143,8 +143,8 @@ input {
 
 .form7 {
 	top: calc(var(--height) * var(--positionvertical));
-	border-left: var(--bordersize) solid $color1;
-	background-color: $color1;
+	border-left: var(--bordersize) solid #{$color1};
+	background-color: #{$color1};
 	opacity: var(--opacity);
 	&:focus,&:hover { 
 	opacity: var(--opacityselected);
@@ -197,27 +197,27 @@ list {
 }
 
 .left {
-  background-color: $color1;
+  background-color: #{$color1};
 }
 
 .general {
-  background-color: $color2;
+  background-color: #{$color2};
 }
 
 .reddit {
-  background-color: $color3;
+  background-color: #{$color3};
 }
 
 .social {
-  background-color: $color4;
+  background-color: #{$color4};
 }
 
 .arts {
-  background-color: $color5;
+  background-color: #{$color5};
 }
 
 .right {
-  background-color: $color6;
+  background-color: #{$color6};
 }
 
 .links {

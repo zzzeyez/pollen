@@ -1,10 +1,10 @@
 :root {
   --bgcolor: #141414;
   --fgcolor: #141414;
-  --formfg: #e2e2e2;
+  --formfg: #e4c9c2;
   --opacityselected: 1;
   --opacity: 0;
-  --font: SF Mono, sans-serif;
+  --font: SF Mono, Lucida Grande;
   --fontsize: 56px;
   --height: 14.29%;
   /* this one is multiplied by --height to get distance from center) */
@@ -38,7 +38,7 @@ body {
 }
 
 h3 {
-  color: #BDC9AF;
+  color: #728797;
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -78,7 +78,7 @@ input {
 
 .form1 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #e2e2e2;
+  border-left: var(--bordersize) solid #e4c9c2;
   background-color: var(--formfg);
   opacity: var(--opacity);
 }
@@ -89,8 +89,8 @@ input {
 
 .form2 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #BDC9AF;
-  background-color: #BDC9AF;
+  border-left: var(--bordersize) solid #728797;
+  background-color: #728797;
   opacity: var(--opacity);
 }
 
@@ -100,8 +100,8 @@ input {
 
 .form3 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #46B0C5;
-  background-color: #46B0C5;
+  border-left: var(--bordersize) solid #DD7484;
+  background-color: #DD7484;
   opacity: var(--opacity);
 }
 
@@ -111,8 +111,8 @@ input {
 
 .form4 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #C95AB6;
-  background-color: #C95AB6;
+  border-left: var(--bordersize) solid #967387;
+  background-color: #967387;
   opacity: var(--opacity);
 }
 
@@ -122,8 +122,8 @@ input {
 
 .form5 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #3539B1;
-  background-color: #3539B1;
+  border-left: var(--bordersize) solid #656687;
+  background-color: #656687;
   opacity: var(--opacity);
 }
 
@@ -133,8 +133,8 @@ input {
 
 .form6 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #D6D15A;
-  background-color: #D6D15A;
+  border-left: var(--bordersize) solid #F7936B;
+  background-color: #F7936B;
   opacity: var(--opacity);
 }
 
@@ -144,8 +144,8 @@ input {
 
 .form7 {
   top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #D6AB63;
-  background-color: #D6AB63;
+  border-left: var(--bordersize) solid #DA5A69;
+  background-color: #DA5A69;
   opacity: var(--opacity);
 }
 
@@ -205,27 +205,27 @@ list {
 }
 
 .left {
-  background-color: #D6AB63;
+  background-color: #DA5A69;
 }
 
 .general {
-  background-color: #D6D15A;
+  background-color: #F7936B;
 }
 
 .reddit {
-  background-color: #3539B1;
+  background-color: #656687;
 }
 
 .social {
-  background-color: #C95AB6;
+  background-color: #967387;
 }
 
 .arts {
-  background-color: #46B0C5;
+  background-color: #DD7484;
 }
 
 .right {
-  background-color: #BDC9AF;
+  background-color: #728797;
 }
 
 .links {
