@@ -1,8 +1,8 @@
+![Screenshot](screenshot.gif)
+
 # Pollen
 
 Pollen is a start page that you can navigate with your keyboard.
-
-![Screenshot](screenshot.gif)
 
 You can navigate through the links with the Tab button.  The default form, "search", accepts URLs and search terms.  The YouTube and Wikipedia forms also accepts search terms.  The other forms are just static links that you can type Enter to visit.
 
@@ -36,3 +36,6 @@ Now you can expand Wal's colors to your CSS file:
 sassc --style expanded ./scss/style.scss > ./style.css 
 ```
 
+![Wal screenshot](wal.jpg)
+
+(the pictures font is [scientifica](https://github.com/nerdypepper/scientifica).)

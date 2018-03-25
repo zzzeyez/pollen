@@ -1,7 +1,7 @@
 :root {
   --bgcolor: linear-gradient(-20deg, #141414, #2f2f2f);
   --fgcolor: #141414;
-  --formfg: #e0e0de;
+  --formfg: #e4c9c2;
   --opacityselected: 1;
   --opacity: 0;
   --font: scientifica, SF Mono, Lucida Grande;
@@ -39,7 +39,7 @@ body {
 }
 
 h3 {
-  color: #B5BBC3;
+  color: #728797;
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -80,7 +80,7 @@ input {
 
 .form1 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #e0e0de;
+  border-left: var(--bordersize) solid #e4c9c2;
   background-color: var(--formfg);
   opacity: var(--opacity);
 }
@@ -91,8 +91,8 @@ input {
 
 .form2 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #B5BBC3;
-  background-color: #B5BBC3;
+  border-left: var(--bordersize) solid #728797;
+  background-color: #728797;
   opacity: var(--opacity);
 }
 
@@ -102,8 +102,8 @@ input {
 
 .form3 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #CDC8B4;
-  background-color: #CDC8B4;
+  border-left: var(--bordersize) solid #DD7484;
+  background-color: #DD7484;
   opacity: var(--opacity);
 }
 
@@ -113,8 +113,8 @@ input {
 
 .form4 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #CAC79A;
-  background-color: #CAC79A;
+  border-left: var(--bordersize) solid #967387;
+  background-color: #967387;
   opacity: var(--opacity);
 }
 
@@ -124,8 +124,8 @@ input {
 
 .form5 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #BDC2B1;
-  background-color: #BDC2B1;
+  border-left: var(--bordersize) solid #656687;
+  background-color: #656687;
   opacity: var(--opacity);
 }
 
@@ -135,8 +135,8 @@ input {
 
 .form6 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #C7B6AB;
-  background-color: #C7B6AB;
+  border-left: var(--bordersize) solid #F7936B;
+  background-color: #F7936B;
   opacity: var(--opacity);
 }
 
@@ -146,8 +146,8 @@ input {
 
 .form7 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #B1B3B0;
-  background-color: #B1B3B0;
+  border-left: var(--bordersize) solid #DA5A69;
+  background-color: #DA5A69;
   opacity: var(--opacity);
 }
 
@@ -207,27 +207,27 @@ list {
 }
 
 .left {
-  background-color: #B1B3B0;
+  background-color: #DA5A69;
 }
 
 .general {
-  background-color: #C7B6AB;
+  background-color: #F7936B;
 }
 
 .reddit {
-  background-color: #BDC2B1;
+  background-color: #656687;
 }
 
 .social {
-  background-color: #CAC79A;
+  background-color: #967387;
 }
 
 .arts {
-  background-color: #CDC8B4;
+  background-color: #DD7484;
 }
 
 .right {
-  background-color: #B5BBC3;
+  background-color: #728797;
 }
 
 .links {
