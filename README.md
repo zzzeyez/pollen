@@ -36,4 +36,3 @@ Now you can expand Wal's colors to your CSS file:
 sassc --style expanded ./scss/style.scss > ./style.css 
 ```
 
-![Wal Screenshot](wal.jpg)

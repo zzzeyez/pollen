@@ -2,21 +2,22 @@
 @import '/Users/zzzeyez/.cache/wal/colors.scss';
 
 :root{
-	--bgcolor: #{$color0};
+	--bgcolor: linear-gradient(-20deg, #141414, #2f2f2f);
 	--fgcolor: #{$color0};
 	--formfg: #{$color7};
 	--opacityselected: 1;
 	--opacity: 0;
-	--font: SF Mono, Lucida Grande;
-	--fontsize: 56px;
-	--height: 14.29%;
-	/* this one is multiplied by --height to get distance from center) */
-	--positionvertical: 0;
-	--width: 100%;
+	--font: scientifica, SF Mono, Lucida Grande;
+	--fontsize: 11px;
+	--height: 21px;
+	--positionvertical: calc(50% + calc(var(--height) * -0.5));
+	--width: 20%;
 	--textalign: left;
 	--textalignvertical: center;
 	--bordersize: 0px;
 	--bordertop: 3px;
+	--transition: 0.4s;
+	--border-radius: 3px;
 }
 
 html {
@@ -33,7 +34,7 @@ html {
 }
 
 body {
-  background-color: var(--bgcolor);
+  background: var(--bgcolor);
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -51,19 +52,19 @@ h3 {
 }
 
 .search {
-	/* z-index: 2; */
-	position: absolute;
+	z-index: 3;
+  	position: absolute;
 	width: var(--width);
 	left: 50%;
 	height: calc( 100% - var(--bordertop) );
-	top: var(--bordertop);
-	transform: translate(-50%,var(--positionvertical));
+	top: 50%;
+	transform: translate(-50%,-50%);
 }
 
 input {
 	width: 100%;
 	border: none;
-	color: var(--bgcolor);
+	color: var(--fgcolor);
 	height: var(--height);
 	background-color: var(--bgcolor);
 	font-family: var(--font);
@@ -75,12 +76,13 @@ input {
 	position: absolute;
 	display: inline;
 	padding-left: 1ch;
-	transition: 0s;
+	transition: var(--transition);
 	text-shadow: 0 0 0 var(--bgcolor);
+	border-radius: var(--border-radius);
 }
 
 .form1 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid $color7;
 	background-color: var(--formfg);
 	opacity: var(--opacity);
@@ -91,7 +93,7 @@ input {
 }
 
 .form2 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid $color6;
 	background-color: #{$color6};
 	opacity: var(--opacity);
@@ -102,7 +104,7 @@ input {
 }
 
 .form3 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid #{$color5};
 	background-color: #{$color5};
 	opacity: var(--opacity);
@@ -112,7 +114,7 @@ input {
 }
 
 .form4 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid #{$color4};
 	background-color: #{$color4};
 	opacity: var(--opacity);
@@ -122,7 +124,7 @@ input {
 }
 
 .form5 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid #{$color3};
 	background-color: #{$color3};
 	opacity: var(--opacity);
@@ -132,7 +134,7 @@ input {
 }
 
 .form6 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid #{$color2};
 	background-color: #{$color2};
 	opacity: var(--opacity);
@@ -142,7 +144,7 @@ input {
 }
 
 .form7 {
-	top: calc(var(--height) * var(--positionvertical));
+	top: var(--positionvertical);
 	border-left: var(--bordersize) solid #{$color1};
 	background-color: #{$color1};
 	opacity: var(--opacity);

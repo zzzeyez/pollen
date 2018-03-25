@@ -1,19 +1,20 @@
 :root {
-  --bgcolor: #141414;
+  --bgcolor: linear-gradient(-20deg, #141414, #2f2f2f);
   --fgcolor: #141414;
-  --formfg: #e4c9c2;
+  --formfg: #e0e0de;
   --opacityselected: 1;
   --opacity: 0;
-  --font: SF Mono, Lucida Grande;
-  --fontsize: 56px;
-  --height: 14.29%;
-  /* this one is multiplied by --height to get distance from center) */
-  --positionvertical: 0;
-  --width: 100%;
+  --font: scientifica, SF Mono, Lucida Grande;
+  --fontsize: 11px;
+  --height: 21px;
+  --positionvertical: calc(50% + calc(var(--height) * -0.5));
+  --width: 20%;
   --textalign: left;
   --textalignvertical: center;
   --bordersize: 0px;
   --bordertop: 3px;
+  --transition: 0.4s;
+  --border-radius: 3px;
 }
 
 html {
@@ -30,7 +31,7 @@ html {
 }
 
 body {
-  background-color: var(--bgcolor);
+  background: var(--bgcolor);
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -38,7 +39,7 @@ body {
 }
 
 h3 {
-  color: #728797;
+  color: #B5BBC3;
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -48,19 +49,19 @@ h3 {
 }
 
 .search {
-  /* z-index: 2; */
+  z-index: 3;
   position: absolute;
   width: var(--width);
   left: 50%;
   height: calc( 100% - var(--bordertop));
-  top: var(--bordertop);
-  transform: translate(-50%, var(--positionvertical));
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 input {
   width: 100%;
   border: none;
-  color: var(--bgcolor);
+  color: var(--fgcolor);
   height: var(--height);
   background-color: var(--bgcolor);
   font-family: var(--font);
@@ -72,13 +73,14 @@ input {
   position: absolute;
   display: inline;
   padding-left: 1ch;
-  transition: 0s;
+  transition: var(--transition);
   text-shadow: 0 0 0 var(--bgcolor);
+  border-radius: var(--border-radius);
 }
 
 .form1 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #e4c9c2;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #e0e0de;
   background-color: var(--formfg);
   opacity: var(--opacity);
 }
@@ -88,9 +90,9 @@ input {
 }
 
 .form2 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #728797;
-  background-color: #728797;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #B5BBC3;
+  background-color: #B5BBC3;
   opacity: var(--opacity);
 }
 
@@ -99,9 +101,9 @@ input {
 }
 
 .form3 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #DD7484;
-  background-color: #DD7484;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #CDC8B4;
+  background-color: #CDC8B4;
   opacity: var(--opacity);
 }
 
@@ -110,9 +112,9 @@ input {
 }
 
 .form4 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #967387;
-  background-color: #967387;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #CAC79A;
+  background-color: #CAC79A;
   opacity: var(--opacity);
 }
 
@@ -121,9 +123,9 @@ input {
 }
 
 .form5 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #656687;
-  background-color: #656687;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #BDC2B1;
+  background-color: #BDC2B1;
   opacity: var(--opacity);
 }
 
@@ -132,9 +134,9 @@ input {
 }
 
 .form6 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #F7936B;
-  background-color: #F7936B;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #C7B6AB;
+  background-color: #C7B6AB;
   opacity: var(--opacity);
 }
 
@@ -143,9 +145,9 @@ input {
 }
 
 .form7 {
-  top: calc(var(--height) * var(--positionvertical));
-  border-left: var(--bordersize) solid #DA5A69;
-  background-color: #DA5A69;
+  top: var(--positionvertical);
+  border-left: var(--bordersize) solid #B1B3B0;
+  background-color: #B1B3B0;
   opacity: var(--opacity);
 }
 
@@ -205,27 +207,27 @@ list {
 }
 
 .left {
-  background-color: #DA5A69;
+  background-color: #B1B3B0;
 }
 
 .general {
-  background-color: #F7936B;
+  background-color: #C7B6AB;
 }
 
 .reddit {
-  background-color: #656687;
+  background-color: #BDC2B1;
 }
 
 .social {
-  background-color: #967387;
+  background-color: #CAC79A;
 }
 
 .arts {
-  background-color: #DD7484;
+  background-color: #CDC8B4;
 }
 
 .right {
-  background-color: #728797;
+  background-color: #B5BBC3;
 }
 
 .links {
