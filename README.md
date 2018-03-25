@@ -38,4 +38,4 @@ sassc --style expanded ./scss/style.scss > ./style.css
 
 ![Wal screenshot](wal.jpg)
 
-(the pictures font is [scientifica](https://github.com/nerdypepper/scientifica).)
+(the pictured font is [scientifica](https://github.com/nerdypepper/scientifica).)
