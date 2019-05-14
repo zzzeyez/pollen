@@ -1,8 +1,8 @@
 // Import Colors
-@import '/Users/zzzeyez/.cache/wal/colors.scss';
+@import '/Users/behaviors/.cache/wal/colors.scss';
 
 :root{
-	--bgcolor: linear-gradient(-20deg, #141414, #2f2f2f);
+	--bgcolor: #{$color0};
 	--fgcolor: #{$color0};
 	--formfg: #{$color7};
 	--opacityselected: 1;
