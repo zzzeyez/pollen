@@ -1,6 +1,6 @@
 :root {
-  --bgcolor: #1e1e1e;
-  --fgcolor: #1e1e1e;
+  --bgcolor: #191919;
+  --fgcolor: #191919;
   --formfg: #fafafa;
   --opacityselected: 1;
   --opacity: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 h3 {
-  color: #DBA58C;
+  color: #a0a0a0;
   font-family: SF Mono;
   line-height: 10px;
   font-weight: Normal;
@@ -91,8 +91,8 @@ input {
 
 .form2 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #DBA58C;
-  background-color: #DBA58C;
+  border-left: var(--bordersize) solid #a0a0a0;
+  background-color: #a0a0a0;
   opacity: var(--opacity);
 }
 
@@ -102,8 +102,8 @@ input {
 
 .form3 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #F3C3BD;
-  background-color: #F3C3BD;
+  border-left: var(--bordersize) solid #83AF9B;
+  background-color: #83AF9B;
   opacity: var(--opacity);
 }
 
@@ -113,8 +113,8 @@ input {
 
 .form4 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #C17B99;
-  background-color: #C17B99;
+  border-left: var(--bordersize) solid #C8C8A9;
+  background-color: #C8C8A9;
   opacity: var(--opacity);
 }
 
@@ -124,8 +124,8 @@ input {
 
 .form5 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #B53366;
-  background-color: #B53366;
+  border-left: var(--bordersize) solid #F9CDAD;
+  background-color: #F9CDAD;
   opacity: var(--opacity);
 }
 
@@ -135,8 +135,8 @@ input {
 
 .form6 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #C06E7B;
-  background-color: #C06E7B;
+  border-left: var(--bordersize) solid #FC9D9A;
+  background-color: #FC9D9A;
   opacity: var(--opacity);
 }
 
@@ -146,8 +146,8 @@ input {
 
 .form7 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #DBA58C;
-  background-color: #DBA58C;
+  border-left: var(--bordersize) solid #FE4365;
+  background-color: #FE4365;
   opacity: var(--opacity);
 }
 
@@ -207,27 +207,27 @@ list {
 }
 
 .left {
-  background-color: #DBA58C;
+  background-color: #FE4365;
 }
 
 .general {
-  background-color: #C06E7B;
+  background-color: #FC9D9A;
 }
 
 .reddit {
-  background-color: #B53366;
+  background-color: #F9CDAD;
 }
 
 .social {
-  background-color: #C17B99;
+  background-color: #C8C8A9;
 }
 
 .arts {
-  background-color: #F3C3BD;
+  background-color: #83AF9B;
 }
 
 .right {
-  background-color: #DBA58C;
+  background-color: #a0a0a0;
 }
 
 .links {
