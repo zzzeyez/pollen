@@ -102,8 +102,8 @@ input {
 
 .form3 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #83AF9B;
-  background-color: #83AF9B;
+  border-left: var(--bordersize) solid #FF3D7F;
+  background-color: #FF3D7F;
   opacity: var(--opacity);
 }
 
@@ -113,8 +113,8 @@ input {
 
 .form4 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #C8C8A9;
-  background-color: #C8C8A9;
+  border-left: var(--bordersize) solid #FF9E9D;
+  background-color: #FF9E9D;
   opacity: var(--opacity);
 }
 
@@ -124,8 +124,8 @@ input {
 
 .form5 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #F9CDAD;
-  background-color: #F9CDAD;
+  border-left: var(--bordersize) solid #DAD8A7;
+  background-color: #DAD8A7;
   opacity: var(--opacity);
 }
 
@@ -135,8 +135,8 @@ input {
 
 .form6 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #FC9D9A;
-  background-color: #FC9D9A;
+  border-left: var(--bordersize) solid #7FC7AF;
+  background-color: #7FC7AF;
   opacity: var(--opacity);
 }
 
@@ -146,8 +146,8 @@ input {
 
 .form7 {
   top: var(--positionvertical);
-  border-left: var(--bordersize) solid #FE4365;
-  background-color: #FE4365;
+  border-left: var(--bordersize) solid #3FB8AF;
+  background-color: #3FB8AF;
   opacity: var(--opacity);
 }
 
@@ -207,23 +207,23 @@ list {
 }
 
 .left {
-  background-color: #FE4365;
+  background-color: #3FB8AF;
 }
 
 .general {
-  background-color: #FC9D9A;
+  background-color: #7FC7AF;
 }
 
 .reddit {
-  background-color: #F9CDAD;
+  background-color: #DAD8A7;
 }
 
 .social {
-  background-color: #C8C8A9;
+  background-color: #FF9E9D;
 }
 
 .arts {
-  background-color: #83AF9B;
+  background-color: #FF3D7F;
 }
 
 .right {
